@@ -1,5 +1,5 @@
 <h1 align="left">🐱 EMITRR-Exploding Kittens 🐱</h1>
-<p align="center">A Web-Based Card Game</p>
+<p align="left">A Web-Based Card Game</p>
 
 
 ## Live Link
