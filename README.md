@@ -1,4 +1,4 @@
-<h1 align="center">🐱 Exploding Kittens 🐱</h1>
+<h1 align="left">🐱 EMITRR-Exploding Kittens 🐱</h1>
 <p align="center">A Web-Based Card Game</p>
 
 
