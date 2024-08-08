@@ -3,8 +3,7 @@
 
 
 ## Live Link
-Visit the [live demo](https://exploding-kittens.netlify.app/) to experience the game
-
+[live demo](https://exploding-kittens.netlify.app/) to experience the game
 
 ## Instructions for Running the Game Locally
 
@@ -12,18 +11,16 @@ Visit the [live demo](https://exploding-kittens.netlify.app/) to experience the 
    - Open your terminal and navigate to the directory where you want to clone the repository.
    - Run the following command to clone the repository:
      ```bash
-     git clone https://github.com/rahil1202/exploding-kittens.git
+     git clone https://github.com/sachindolase/EMITRR-Exploding-Kittens.git
      ```
 
 2. **Set Up Server**
-   - Navigate to the `exploding-kittens` directory:
-     ```bash
-     cd exploding-kittens
-     ```
-   - Start the server:
+   - Navigate to the `EMITRR-Exploding-Kittens` directory:
+     
+   - Start the backend:
      1. **Setting up your environment:**
         ```bash
-        cd server
+        cd backend
         touch .env
         echo "PORT=(Specify the port)" >> .env
         echo "REDIS_URL=(Your Redis URI)" >> .env
@@ -34,17 +31,17 @@ Visit the [live demo](https://exploding-kittens.netlify.app/) to experience the 
         npm run start:dev
         ```
         <p align="center">OR</p>
-     3. **To build the server:**
+     3. **To build the backend:**
         ```bash
         npm run build
         npm start
         ```
 
-3. **Start the Client**
+3. **Start the frontend**
    - Navigate back to the root directory:
      ```bash
      cd ..
-     cd client
+     cd frontend
      touch .env
      echo "VITE_API_URL=http://localhost:(PORT)" >> .env
      npm install
@@ -60,8 +57,7 @@ Visit the [live demo](https://exploding-kittens.netlify.app/) to experience the 
      npm run preview
      ```
 4. **Access the Game**
-   - Open your web browser and go to [http://localhost:(PORT)](http://localhost:(PORT)) to access the game.
-
+   - Open your web browser and go to [http://localhost:(PORT)](http://localhost:5173) to access the game.
 
 ## Game Instructions
 
